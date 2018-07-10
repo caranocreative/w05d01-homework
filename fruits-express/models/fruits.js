@@ -1,4 +1,4 @@
-const fruits = [
+const fruitsList = [
     {
         name:'apple',
         color: 'red',
@@ -17,4 +17,4 @@ const fruits = [
 ];
 //exporting the whole fruits array and it will
 //be named whatever we require as
-module.exports = fruits;
+module.exports = fruitsList;

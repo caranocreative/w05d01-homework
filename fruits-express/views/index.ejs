@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Fruits Index EJS</h1>
+
+<% for(i = 0; i < fruitsList.length; i++) { %>
+		<a href="/fruits/<%=i%>"><h2><%= fruitsList[i].name %>
+		</h2></a>
+	<%}%>
+
+
+
+
+
+</body>
+</html>
